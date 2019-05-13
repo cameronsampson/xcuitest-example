@@ -14,30 +14,6 @@ TweetMD is a little app we created exclusively for the take home assignment. It 
 
 We have already completed the desired functionality for TweetMD. Your job is to fix some broken code that failing tests should reveal, write a few more additional tests, and wire the project up to CI.
 
-### Getting Set Up
-1. **FORK** this repository onto your personal GitHub account
-2. Clone your fork: `git clone git@github.com:[your_github_username]/dox_automation_assignment_ios.git`
-3. Create a branch named with the following format: `firstName_lastName`. Use this branch for all of your changes
-4. Ensure you have the ruby version specified in `.ruby-version` installed. You're free to use the ruby version manager of your choice, but [rbenv](https://github.com/rbenv/rbenv#homebrew-on-macos) is recommended
-5. Run `gem update --system && gem install bundler`
-6. Run `bundle install`
-4. Open TweetMD.xcworkspace
-
-### Submission Instructions
-1. Complete all tasks and create a pull-request pointing at ****YOUR**** fork with your changes. When creating the pull request, make sure you change the base repository to your own fork's master.
-2. In the settings of your fork, add `@TheMetalCode` and `@NoHesHere` as collaborators
-3. On your pull request, add `@TheMetalCode` and `@NoHesHere` as reviewers
-4. If you'd like to include comments to explain your thought process, feel free to do so within the code or in your PR
-
-### What to Expect after you Submit
-Our team will be notified and we'll review the submission within 3 days. Among other things, we'll be checking for:
-* Ability to fully meet the requirements of each task as specified
-* Well-architected, robust, and maintainable code
-* Expertise with iOS test automation and CI
-* Ability to interpret and leverage existing code and documentation
-
-We know your time is valuable and appreciate you taking the time to complete this assignment!
-
 # Tasks
 
 ### Task 1
@@ -80,6 +56,4 @@ You can then validate your CircleCI config like so:
 Please use the linked CircleCI documentation and anything you can find to complete this final portion of the assignment. CircleCI CLI validation of your config file should be successful prior to submission.
 
 ### Reflections
-One of our core values at Doximity is to leave the code better than you found it.
-
 If there are additional test scenarios you would implement, or any other improvement to the test automation infrastructure or CI setup that you would make if given time, you are welcome to add a description of the improvements you would make in Reflections.md. You are also encouraged to add as many comments as you deem necessary to your pull request.
